@@ -26,7 +26,7 @@ silahkan hilangkan komentar (//) di tag PHP di bawah.
 
 <!-- Area Chart Example-->
 <div class="card mb-3">
-<div class="card-header bg-success">
+<div class="card-header bg-primary">
 
 <i class="fas fa-table"></i>
 Semua Reservasi Selesai</div>

@@ -72,7 +72,7 @@
                   </div>
                    <div class="form-group">
                        <div class="col-md-9">
-                            <input type="submit" class="btn btn-success " value="SAVE">
+                            <input type="submit" class="btn btn-primary " value="SAVE">
                         </div>
                   </div>
                 </div>

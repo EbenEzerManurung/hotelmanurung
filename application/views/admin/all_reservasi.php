@@ -26,7 +26,7 @@
 
     <!-- Area Chart Example-->
     <div class="card mb-3">
-          <div class="card-header bg-success">
+          <div class="card-header bg-warning">
            
             <i class="fas fa-table"></i>
             Semua Reservasi Selesai</div>

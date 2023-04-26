@@ -92,7 +92,7 @@ foreach ($kelas_kamar->result_array() as $value) { ?>
 </select>
 </div>
 </div>
-<button class="btn btn-primary">Find Now</button>
+<button class="btn btn-success">Find Now</button>
 
 <?php echo form_close();?>
 </div>

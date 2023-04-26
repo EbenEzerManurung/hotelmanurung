@@ -26,7 +26,7 @@ silahkan hilangkan komentar (//) di tag PHP di bawah.
 
 <!-- Area Chart Example-->
 <div class="card mb-3">
-<div class="card-header bg-success">
+<div class="card-header bg-primary">
 
 <i class="fas fa-table"></i>
 Pemesanan</div>
@@ -64,7 +64,7 @@ Pemesanan</div>
 ?>
 <div class="card-body">
 <div class="table-responsive">
-<a class="btn btn-success " href="new_reservasi_tambah">Add <i class="fa fa-plus"></i></a><br>
+<a class="btn btn-primary " href="new_reservasi_tambah">Add <i class="fa fa-plus"></i></a><br>
 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 <br>
 <thead>

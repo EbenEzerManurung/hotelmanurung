@@ -22,7 +22,7 @@
       <div class="card text-white bg-primary o-hidden h-100">
         <div class="card-body">
         <div class="card-body-icon">
-          <i class="fas fa-fw fa-bed"></i>
+          <i class="fas fa-fw fa-hotel"></i>
         </div>
         <div class="mr-5"><?php echo $this->m_hotel->get_data('kamar')->num_rows(); ?> TOTAL KAMAR SELURUHNYA</div>
         </div>
@@ -30,10 +30,10 @@
       </div>
       </div>
       <div class="col-xl-3 col-sm-6 mb-3">
-      <div class="card text-white bg-success o-hidden h-100">
+      <div class="card text-white bg-dark o-hidden h-100">
         <div class="card-body">
         <div class="card-body-icon">
-          <i class="fas fa-fw fa-bed"></i>
+          <i class="fas fa-fw fa-hotel"></i>
         </div>
         <div class="mr-5"><?php echo $this->m_hotel->kamarkosong()->num_rows(); ?> TOTAL KAMAR KOSONG</div>
         </div>
@@ -41,10 +41,10 @@
       </div>
       </div>
       <div class="col-xl-3 col-sm-6 mb-3">
-      <div class="card text-white bg-danger o-hidden h-100">
+      <div class="card text-white bg-warning o-hidden h-100">
         <div class="card-body">
         <div class="card-body-icon">
-          <i class="fas fa-fw fa-bed"></i>
+          <i class="fas fa-fw fa-hotel"></i>
         </div>
         <div class="mr-5"><?php echo $this->m_hotel->kamarisi()->num_rows(); ?> TOTAL KAMAR TERISI</div>
         </div>
@@ -57,7 +57,7 @@
       <div class="card text-white bg-success o-hidden h-100">
         <div class="card-body">
         <div class="card-body-icon">
-          <i class="fas fa-fw fa-bed"></i>
+          <i class="fas fa-fw fa-hotel"></i>
         </div>
         <div class="mr-5" align="center"><?php echo $this->db->query('SELECT * from reservasi where status_reservasi=1')->num_rows(); ?> TOTAL CHECK-IN </div>
         </div>
@@ -69,7 +69,7 @@
       <div class="card text-white bg-danger o-hidden h-100">
         <div class="card-body">
         <div class="card-body-icon">
-          <i class="fas fa-fw fa-bed"></i>
+          <i class="fas fa-fw fa-hotel"></i>
         </div>
         <div class="mr-5" align="center"><?php echo $this->db->query('SELECT * from reservasi where status_reservasi=2')->num_rows(); ?> TOTAL CHECK-OUT</div>
         </div>
@@ -84,7 +84,7 @@
     <!-- Area Chart Example-->
     <hr style="border: 1px solid">
     <div class="card mb-3">
-          <div class="card-header bg-success">
+          <div class="card-header bg-primary">
             <i class="fas fa-table"></i>
             Pemesanan Baru</div>
 
@@ -113,7 +113,7 @@
             <tr>
               <td><?php echo $no++; ?></td>
               <td>
-               <a  class="btn btn-success" href="<?php echo base_url().'operator/new_reservasi_in/'.$r->id_reservasi?>/1"> IN</a> 
+               <a  class="btn btn-info" href="<?php echo base_url().'operator/new_reservasi_in/'.$r->id_reservasi?>/1"> IN</a> 
               </td>
               <td><?php echo $r->nama_reservasi; ?></td>
               <td><?php echo $r->tlp_reservasi; ?></td>
@@ -133,7 +133,7 @@
 <hr style="border: 1px solid">
     <!-- Area Chart Example-->
     <div class="card mb-3">
-          <div class="card-header bg-success">
+          <div class="card-header bg-primary">
             <i class="fas fa-table"></i>
             Data Kamar Kosong</div>
 

@@ -17,7 +17,7 @@
       <!-- search box-->
         <div class="container-fluid">
           
-        <h2 >Kritik & Saran</h2>
+        <h2 >Saran</h2>
         <hr style="border: 1px solid">
         
       <!--end search box-->

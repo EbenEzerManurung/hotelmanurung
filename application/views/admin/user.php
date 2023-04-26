@@ -23,7 +23,7 @@
 
           <div class="card-body">
             <div class="table-responsive">
-              <a class="btn btn-success " href="user_tambah">Add <i class="fa fa-plus"></i></a><br>
+              <a class="btn btn-primary " href="user_tambah">Add <i class="fa fa-plus"></i></a><br>
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <br>
          <thead>

@@ -23,7 +23,7 @@
 
           <div class="card-body">
             <div class="table-responsive">
-              <a class="btn btn-success " href="kamar_tambah">Add <i class="fa fa-plus"></i></a><br>
+              <a class="btn btn-primary " href="kamar_tambah">Add <i class="fa fa-plus"></i></a><br>
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <br>
          <thead>
@@ -52,7 +52,7 @@
               <td><?php echo rupiah($k->harga_kamar); ?></td>
               <td><?php echo $k->nama_kelas_kamar; ?></td>
               <td>
-                <a  class="btn btn-success" href="<?php echo base_url().'admin/kamar_gambar/'.$k->id_kamar?>"><i class="fa fa-image"></i></a>
+                <a  class="btn btn-primary" href="<?php echo base_url().'admin/kamar_gambar/'.$k->id_kamar?>"><i class="fa fa-image"></i></a>
               </td>
             </tr>
             <?php 

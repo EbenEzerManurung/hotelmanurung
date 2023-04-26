@@ -17,7 +17,7 @@
 
     <?php $this->load->view("operator/_partials/breadcrumb.php") ?>
     <div class="card mb-3">
-          <div class="card-header bg-success">
+          <div class="card-header bg-primary">
             <i class="fas fa-table"></i>
             Tambah Reservasi Baru</div>
             <div class="card-body">
@@ -123,7 +123,7 @@
                           <div class="col-md-6">
                             <div class="row">
                               <div class="col-md-offset-3 col-md-9">
-                                <button type="submit" class="btn btn-success">Save</button>
+                                <button type="submit" class="btn btn-primary">Save</button>
                                 </div>
                             </div>
                           </div>

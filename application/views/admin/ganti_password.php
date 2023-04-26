@@ -38,7 +38,7 @@
                   </div>
                   <div class="form-group">
                        <div class="col-md-9">
-                            <input type="submit" class="btn btn-success " value="SIMPAN">
+                            <input type="submit" class="btn btn-primary " value="SIMPAN">
                         </div>
                   </div>
               </form>
